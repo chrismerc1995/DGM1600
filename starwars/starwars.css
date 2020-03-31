@@ -1,0 +1,19 @@
+:root {
+    box-sizing: border-box;
+    background-color: tan;
+}
+
+a > img {
+    height: 12rem;
+    margin: 6px;
+}
+
+button {
+    height: 3rem;
+    border-radius: 15px;
+    font-size: larger; 
+    background-color: lightblue;
+    font-family: Helvetica;
+    
+    
+}

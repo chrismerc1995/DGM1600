@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    font-size: 70px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    text-decoration: none;
+}
+ #welcome-section {
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(218, 149, 0);
+ }
+
+ h1, h3 {
+     color: #fff;
+     font-size: 50px;
+ }
+
+ #project-list {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #contact {
+     display: flex;
+     justify-content: center;
+     padding: 1.5rem;
+     margin: 1.5rem;
+     width: 100%;
+     flex-wrap: wrap;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ #contact a {
+     margin: 1rem;
+ }
+
+ i {
+     font-size: 2rem;
+ }
+
+ /*
+ .project-tile {
+     working on sizing image
+     
+ }
+ */
+ 
+ footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.5rem;
+     height: 60px;
+     background-color: rgb(221, 216, 216);
+     color: #fff;
+ }
+
+ /* 1200px / 16px = 75em */
+ @media (max-width: 75em) {
+     html {
+         font-size: 60%;
+     }
+ }
+
+/* 980px / 16px = 61.25em */
+ @media (max-width: 61.25em) {
+     html {
+         font-size: 50%;
+     }
+ }
+
+ /* 460px / 16px = 28.75em */
+ @media (max-width: 28.75em) {
+    html {
+        font-size: 70%;
+    }
+}
+
+/*create star field backdrop*/
