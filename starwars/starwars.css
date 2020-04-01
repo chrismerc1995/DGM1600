@@ -1,11 +1,12 @@
 :root {
     box-sizing: border-box;
-    background-color: tan;
+    background-image: url("/Images/space2.jpeg");
 }
 
 a > img {
     height: 12rem;
     margin: 6px;
+    border: 4px solid lightskyblue;
 }
 
 button {
@@ -14,6 +15,9 @@ button {
     font-size: larger; 
     background-color: lightblue;
     font-family: Helvetica;
-    
-    
 }
+
+.gallery {
+    background: url('http:www.example.com')
+}
+

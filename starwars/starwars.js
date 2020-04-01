@@ -41,6 +41,7 @@ function getLastNumber(url) {
     }
 
 function populateDOM(characters) {
+    console.log(characters)
     removeChildren(gallery)
     characters.forEach(person => {  
         let imageNum = getLastNumber(person.url)
